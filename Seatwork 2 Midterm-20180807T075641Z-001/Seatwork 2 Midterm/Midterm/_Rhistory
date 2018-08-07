@@ -1,0 +1,129 @@
+MeanFunction <- function(dataset_csv, removeNA = TRUE){
+col_num <- ncol(dataset_csv)
+means_per_col <- numeric(col_num)
+for (element in 1:col_num) {
+means_per_col[element] <- mean(dataset_csv[ ,element], na.rm = removeNA)
+}
+means_per_col
+}
+dotosot <- read.csv(midtermseatwork.csv)
+library(readr)
+midetrmseatwork_data <- read_csv("midetrmseatwork_data.csv")
+View(midetrmseatwork_data)
+dotosot <- read.csv(midtermseatwork.csv)
+dotosot <- read.csv(midtermseatwork.csv)
+dotosot <- read.csv("midtermseatwork.csv")
+dotosot <- read.csv("midetrmseatwork_data.csv")
+MeanFunction(dotosot)
+MeanFunction <- function(dataset_csv, removeNA = TRUE){
+col_num <- ncol(dataset_csv)
+means_per_col <- numeric(col_num)
+for (element in 1:col_num) {
+means_per_col[element] <- mean(dataset_csv[ ,element], na.rm = removeNA)
+}
+means_per_col
+}
+dotosot <- read.csv("midetrmseatwork_data.csv")
+MeanFunction(dotosot)
+MeanFunction <- function(dotosot, Ozone = 25 & Temp = 70){
+col_num <- ncol(dataset_csv)
+means <- numeric(col_num)
+for (Wind in 1:col_num) {
+means[Wind] <- mean(dotosot)
+}
+means
+}
+MeanFunction <- function(dotosot, Ozone = 25 & Temp = 70){
+col_num <- ncol(dotosot)
+means <- numeric(col_num)
+for (Wind in 1:col_num) {
+means[Wind] <- mean(dotosot)
+}
+me
+MeanFunction <- function(dotosot, Ozone = 25 & Temp = 70){
+col_num <- ncol(dotosot)
+means <- (col_num)
+for (Wind in 1:col_num) {
+means[Wind] <- mean(dotosot)
+}
+means
+}
+MeanFunction <- function(dotosot, Ozone = 25 & Temp = 70){
+means <- (col_num)
+for (Wind in 1:col_num) {
+means[Wind] <- mean(dotosot)
+}
+m
+MeanFunction <- function(dotosot, Ozone = 25 & Temp = 70){
+means <- (col_num)
+for (Wind in 1:col_num) {
+means[Wind] <- mean(dotosot)
+}
+means
+}
+subset <- function(dotosot, min_dotosot,max_dotosot){
+x <- ifelse(dotosot$Ozone>min_dotosot & dotosot$Temp>max_dotosot,dotosot$Wind,NA)
+mean(x,na.rm = TRUE)
+}
+subset(dotosot,25,27)
+subset <- function(dotosot, min_dotosot,max_dotosot){
+x <- ifelse(dotosot$Month=min_dotosot & dotosot$Day=max_dotosot,dotosot$Temp,NA)
+mean(x,na.rm = TRUE)
+}
+subset(dotosot,9,8)
+subset <- function(dotosot, min_dotosot,max_dotosot){
+y <- ifelse(dotosot$Month=min_dotosot & dotosot$Day=max_dotosot,dotosot$Temp,NA)
+mean(y,na.rm = TRUE)
+}
+subset(dotosot,9,8)
+subset <- function(dotosot, min_dotosot,max_dotosot){
+x <- ifelse(dotosot$Ozone>min_dotosot & dotosot$Temp>max_dotosot,dotosot$Wind,NA)
+mean(x,na.rm = TRUE)
+}
+subset(dotosot,25,27)
+subset <- function(dotosot, min_dotosot,max_dotosot){
+x <- ifelse(dotosot$Ozone>min_dotosot & dotosot$Temp>max_dotosot,dotosot$Wind,NA)
+mean(x,na.rm = TRUE)
+}
+subset(dotosot,25,70)
+subset <- function(dotosot, min_dotosot,max_dotosot){
+y <- ifelse(dotosot$Ozone=min_dotosot & dotosot$Temp=max_dotosot,dotosot$Wind,NA)
+mean(y,na.rm = TRUE)
+}
+subset(dotosot,9,8)
+MeanFunction <- function(dotosot, Month, Day){
+Temp <- 0
+for ( row in 1:nrow(dotosot)) {
+Temp[row] <- ifelse(dotosot[row,5]==Month&dotosot[row,6]==Day,dotosot[row,4],NA)
+}
+mean(Temp,na.rm = TRUE)
+}
+MeanFunction <- function(dotosot, Month, Day){
+Temp <- 0
+for ( row in 1:nrow(dotosot)) {
+Temp[row] <- ifelse(dotosot[row,5]==Month&dotosot[row,6]==Day,dotosot[row,4],NA)
+}
+mean(Temp,na.rm = TRUE)
+}
+MeanFunction <- function(dotosot, Month, Day){
+Temp <- 0
+for ( row in 1:nrow(dotosot)) {
+Temp[row] <- ifelse(dotosot[row,5]==Month&dotosot[row,6]==Day,dotosot[row,4],NA)
+}
+}
+mean(Temp,na.rm = TRUE)
+MeanFunction <- function(dotosot, Month, Day){
+Temp <- 0
+for ( row in 1:nrow(dotosot)) {
+Temp[row] <- ifelse(dotosot[row,5]==Month&dotosot[row,6]==Day,dotosot[row,4],NA)
+}
+mean(Temp,na.rm = TRUE)
+}
+MeanFunction <- function(dotosot, Month, Day){
+Temp <- 0
+for ( row in 1:nrow(dotosot)) {
+Temp[row] <- ifelse(dotosot[row,5]==Month&dotosot[row,6]==Day,dotosot[row,4],NA)
+}
+mean(Temp,na.rm = TRUE)
+}
+MeanFunction(dotosot,9,8)
